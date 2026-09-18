@@ -4,7 +4,7 @@ speakers:
   - Simon Martinelli
   - Andreas Schlapbach
 pubDatetime: 2026-09-14T18:00:00+02:00
-upcoming: true
+upcoming: false
 title: "Spec-Driven Development at the Enterprise Level"
 topics:
   - artificial intelligence
