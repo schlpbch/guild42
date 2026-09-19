@@ -3,7 +3,7 @@ author: Simon Butscher
 speakers: []
 pubDatetime: 2026-10-12T18:00:00+02:00
 upcoming: true
-title: "Is Software Engineering in Bern Dying - or Just Evolving?"
+title: "Is Software Engineering in Bern Declining - or Just Evolving?"
 topics:
   - artificial intelligence
   - near shore
@@ -13,8 +13,6 @@ description: Bern’s software engineering scene is changing, new skills, new ro
 ---
 
 ![The Future of Software Engineering in Bern](@assets/images/2026_10_12_Future_of_Eng_in_Bern.png)
-
-### Abstract
 
 The software engineering market is in flux: artificial intelligence, near- and offshoring, rising cost pressure, and structural shifts are increasingly reshaping Bern as a tech location. This panel discussion tackles a provocative question head-on: is software engineering in Bern facing decline, or are we witnessing a transformation?​
 
@@ -26,7 +24,7 @@ Join to get a clear view on current market shifts, hear from multiple roles, con
 
 The panel discussion will be held in German.​
 
-### Members of the Panel
+## Members of the Panel
 
 - **Client:** Confirmation missing, [Swisscom](https://www.swisscom.ch/)
 - **Academia:** [Timo Kehrer](https://www.linkedin.com/in/timo-kehrer-869a81283/), [Uni Bern](https://www.unibe.ch/)
@@ -36,9 +34,9 @@ The panel discussion will be held in German.​
 - **Training Provider, Bootcamp:** [Philippe Streit](https://www.linkedin.com/in/philippestreitbelp/), [Nexplore](https://www.nexplore.ch/)
 - **Moderation:** [Mirja J L Kindler](https://www.linkedin.com/in/mirja-j-l-kindler-ab069a93/), [Adesso](https://www.adesso.ch/)
 
-### Thanks to our special sponsors for this event
+## Thanks to Our Special Sponsors for this Event
 
-This event is a special and additional event which is only possible due to the following sponsors:
+This event is a special event which was only made possible due to the following sponsors:
 
 - [adesso](https://www.adesso.ch/)
 - [algosys GmbH](https://algosys.ch/)
@@ -47,8 +45,6 @@ This event is a special and additional event which is only possible due to the f
 - [Plaintext GmbH](https://plaintext.ch/)
 - [Zooey GmbH](https://www.zooey.ch/)
 
-
-
-### Registration
+## Registration
 
 You can register via [Meetup](https://www.meetup.com/guild42ch/events/313032724/?utm_medium=referral&utm_campaign=share-btn_savedevents_share_modal&utm_source=link&utm_version=v2&member_id=160224342). We look forward to seeing you there!
