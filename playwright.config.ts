@@ -18,7 +18,7 @@ export default defineConfig({
     },
   ],
   webServer: {
-    command: "pnpm dev --port 4321",
+    command: "pnpm dev --port 4321 --ignore-lock",
     url: "http://localhost:4321",
     reuseExistingServer: true,
     timeout: 30000,

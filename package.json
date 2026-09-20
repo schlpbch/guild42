@@ -29,10 +29,11 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
+    "@astrojs/markdown-remark": "^7.3.1",
     "@astrojs/rss": "^4.0.19",
     "@nanostores/preact": "^1.1.0",
     "@resvg/resvg-js": "^2.6.2",
-    "astro": "^6.4.8",
+    "astro": "^7.3.3",
     "fuse.js": "^7.5.0",
     "github-slugger": "^2.0.0",
     "nanostores": "^1.5.3",
@@ -42,7 +43,7 @@
     "satori": "^0.26.0"
   },
   "devDependencies": {
-    "@astrojs/preact": "^5.1.5",
+    "@astrojs/preact": "^6.0.5",
     "@astrojs/sitemap": "^3.7.4",
     "@divriots/jampack": "^0.34.1",
     "@eslint/js": "^10.0.1",
