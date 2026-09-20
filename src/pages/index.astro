@@ -30,50 +30,44 @@ pastEvents = getSortedPastEvents(pastEvents);
 
     <Sponsors />
 
-    {
-      forthcomingEvents.length > 0 && (
-        <section class="py-8">
-          <h2 class="text-2xl font-semibold tracking-wide">Upcoming Events</h2>
-          <ul>
-            {forthcomingEvents.map(({ data, id }) => (
-              <Card
-                href={`/events/${id}/`}
-                frontmatter={data}
-                secHeading={false}
-              />
-            ))}
-          </ul>
-        </section>
-      )
-    }
+    {forthcomingEvents.length > 0 && (
+      <section class="py-8">
+        <h2 class="text-2xl font-semibold tracking-wide">Upcoming Events</h2>
+        <ul>
+          {forthcomingEvents.map(({ data, id }) => (
+            <Card
+              href={`/events/${id}/`}
+              frontmatter={data}
+              secHeading={false}
+            />
+          ))}
+        </ul>
+      </section>
+    )}
 
-    {
-      pastEvents.length > 0 && (
-        <section id="recent-events">
-          <h2>Past Events</h2>
-          <ul>
-            {pastEvents.map(
-              ({ data, id }, index) =>
-                index < 2 && (
-                  <Card
-                    href={`/events/${id}/`}
-                    frontmatter={data}
-                    secHeading={false}
-                  />
-                )
-            )}
-          </ul>
-        </section>
-      )
-    }
+    {pastEvents.length > 0 && (
+      <section id="recent-events">
+        <h2>Past Events</h2>
+        <ul>
+          {pastEvents.map(
+            ({ data, id }, index) =>
+              index < 2 && (
+                <Card
+                  href={`/events/${id}/`}
+                  frontmatter={data}
+                  secHeading={false}
+                />
+              )
+          )}
+        </ul>
+      </section>
+    )}
 
     <div class="all-events-btn-wrapper">
       <LinkButton href="/events/">
         All Events
-        <svg xmlns="http://www.w3.org/2000/svg"
-          ><path
-            d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"
-          ></path>
+        <svg xmlns="http://www.w3.org/2000/svg">
+          <path d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"></path>
         </svg>
       </LinkButton>
     </div>

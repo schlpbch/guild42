@@ -17,7 +17,9 @@ let topics = getUniqueTopics(events);
   <Header activeNav="topics" />
   <Main pageTitle="Topics" pageDesc="All the topcis covered so far.">
     <ul>
-      {topics.map(({ topic }) => <Topic {topic} size="lg" />)}
+      {topics.map(({ topic }) => (
+        <Topic {topic} size="lg" />
+      ))}
     </ul>
   </Main>
   <Footer />

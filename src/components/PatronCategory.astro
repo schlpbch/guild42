@@ -13,27 +13,25 @@ const { category, title } = Astro.props;
 <section class="pb-3 pl-0">
   <h2 class="pb-2 pt-4 text-2xl font-semibold tracking-wide">{title}</h2>
   <ul class="list-outside list-[square] pl-6 marker:text-blue-400">
-    {
-      PATRONS.filter((patron: Patron) => patron.category === category).map(
-        (patron: Patron) => (
-          <li class="py-1">
-            {patron.href ? (
-              <a
-                href={patron.href}
-                class="inline-block"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {patron.name}
-              </a>
-            ) : (
-              <span class="inline-block">{patron.name}</span>
-            )}
-            {patron.owner && <>({patron.owner})</>}
-          </li>
-        )
+    {PATRONS.filter((patron: Patron) => patron.category === category).map(
+      (patron: Patron) => (
+        <li class="py-1">
+          {patron.href ? (
+            <a
+              href={patron.href}
+              class="inline-block"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {patron.name}
+            </a>
+          ) : (
+            <span class="inline-block">{patron.name}</span>
+          )}
+          {patron.owner && <>({patron.owner})</>}
+        </li>
       )
-    }
+    )}
   </ul>
 </section>
 <style>

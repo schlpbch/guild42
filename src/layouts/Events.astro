@@ -21,11 +21,9 @@ const { currentPage, totalPages, paginatedPosts } = Astro.props;
   <Header activeNav="events" />
   <Main pageTitle="Events" pageDesc="All the events we have organized.">
     <ul>
-      {
-        paginatedPosts.map(({ data, id }) => (
-          <Card href={`/events/${id}/`} frontmatter={data} />
-        ))
-      }
+      {paginatedPosts.map(({ data, id }) => (
+        <Card href={`/events/${id}/`} frontmatter={data} />
+      ))}
     </ul>
   </Main>
 

@@ -51,8 +51,10 @@ const eventJsonLD = generateEventJsonLD(post, Astro.site?.toString() || "");
 
 <Layout {...layoutProps}>
   <!-- Event JSON-LD -->
-  <script type="application/ld+json" set:html={JSON.stringify(eventJsonLD)} />
-
+  <script
+    type="application/ld+json"
+    set:html={JSON.stringify(eventJsonLD)}
+  ></script>
   <Header />
 
   <!-- <div class="progress-container fixed top-0 z-10 h-1 w-full bg-skin-fill">
@@ -64,15 +66,16 @@ const eventJsonLD = generateEventJsonLD(post, Astro.site?.toString() || "");
       class="focus-outline mb-2 mt-8 flex hover:opacity-75"
       onclick="(() => (history.length === 1) ? window.location = '/' : history.back())()"
     >
-      <svg xmlns="http://www.w3.org/2000/svg"
-        ><path
-          d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
-        ></path>
-      </svg><span>Go back</span>
+      <svg xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"></path>
+      </svg>
+      <span>Go back</span>
     </button>
   </div>
   <main id="main-content">
-    <h1 transition:name={slugifyStr(title)} class="post-title">{title}</h1>
+    <h1 transition:name={slugifyStr(title)} class="post-title">
+      {title}
+    </h1>
     <SubHeading
       pubDatetime={pubDatetime}
       modDatetime={modDatetime}
@@ -83,20 +86,18 @@ const eventJsonLD = generateEventJsonLD(post, Astro.site?.toString() || "");
     </article>
 
     <ul class="my-8">
-      {topics.map(topic => <Topic topic={slugifyStr(topic)} />)}
+      {topics.map(topic => (
+        <Topic topic={slugifyStr(topic)} />
+      ))}
     </ul>
 
-    <div
-      class="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row-reverse sm:items-end sm:gap-4"
-    >
+    <div class="flex flex-col-reverse items-center justify-between gap-6 sm:flex-row-reverse sm:items-end sm:gap-4">
       <button
         id="back-to-top"
         class="focus-outline whitespace-nowrap py-1 hover:opacity-75"
       >
         <svg xmlns="http://www.w3.org/2000/svg" class="rotate-90">
-          <path
-            d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"
-          ></path>
+          <path d="M13.293 6.293 7.586 12l5.707 5.707 1.414-1.414L10.414 12l4.293-4.293z"></path>
         </svg>
         <span>Back to Top</span>
       </button>

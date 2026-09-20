@@ -138,8 +138,12 @@ const {
 >
   <div class="stage" id="stage" aria-live="polite">
     <div class="top-right">
-      <span class="pill" id="zoomLabel">100%</span>
-      <a class="pill" href={src} download>Download</a>
+      <span class="pill" id="zoomLabel">
+        100%
+      </span>
+      <a class="pill" href={src} download>
+        Download
+      </a>
     </div>
     <canvas id="pageCanvas"></canvas>
     <div id="errorMsg" class="error">
@@ -160,16 +164,26 @@ const {
 
   <div class="chrome">
     <div class="left">
-      <button class="btn" id="prevBtn" aria-label="Previous page">⟨</button>
-      <button class="btn" id="nextBtn" aria-label="Next page">⟩</button>
+      <button class="btn" id="prevBtn" aria-label="Previous page">
+        ⟨
+      </button>
+      <button class="btn" id="nextBtn" aria-label="Next page">
+        ⟩
+      </button>
     </div>
     <div class="meta">
-      <span class="pager"
-        ><span id="pageNum">1</span>/<span id="pageCount">-</span></span
-      >
-      <button class="btn" id="zoomOut" aria-label="Zoom out">−</button>
-      <button class="btn" id="zoomIn" aria-label="Zoom in">＋</button>
-      <button class="btn" id="fitBtn" aria-label="Toggle fit mode">Fit</button>
+      <span class="pager">
+        <span id="pageNum">1</span>/<span id="pageCount">-</span>
+      </span>
+      <button class="btn" id="zoomOut" aria-label="Zoom out">
+        −
+      </button>
+      <button class="btn" id="zoomIn" aria-label="Zoom in">
+        ＋
+      </button>
+      <button class="btn" id="fitBtn" aria-label="Toggle fit mode">
+        Fit
+      </button>
     </div>
   </div>
 </div>
@@ -178,7 +192,8 @@ const {
 <script
   is:inline
   src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.4.168/pdf.min.mjs"
-  type="module"></script>
+  type="module"
+></script>
 <script is:inline type="module">
   const PDFJS_VERSION = "4.4.168";
 

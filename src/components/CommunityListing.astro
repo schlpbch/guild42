@@ -8,20 +8,18 @@ const { title } = Astro.props;
 <section class="pb-3 pl-0">
   <h2 class="pb-2 pt-4 text-2xl font-semibold tracking-wide">{title}</h2>
   <ul class="list-outside list-[square] pl-6 marker:text-blue-400">
-    {
-      COMMUNITY.map((community: Community) => (
-        <li class="py-1">
-          <a
-            href={community.href}
-            class="inline-block"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {community.name}
-          </a>
-        </li>
-      ))
-    }
+    {COMMUNITY.map((community: Community) => (
+      <li class="py-1">
+        <a
+          href={community.href}
+          class="inline-block"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {community.name}
+        </a>
+      </li>
+    ))}
   </ul>
 </section>
 <style>
