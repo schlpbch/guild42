@@ -30,7 +30,7 @@ The panel discussion will be held in German.​
 - **Academia:** [Timo Kehrer](https://www.linkedin.com/in/timo-kehrer-869a81283/), [Uni Bern](https://www.unibe.ch/)
 - **Contractor with Shoring:** [Kenan Kubilay Dag](https://www.linkedin.com/in/kenan-kubilay-dag-7b7324a3/), [adesso](https://www.adesso.ch/)
 - **Local Contractor:** [Reto Brechbuehl](https://www.linkedin.com/in/reto-brechbuehl/), [Puzzle ITC](https://www.puzzle.ch/)
-- **Engineer:** [Nora Möeri](https://www.linkedin.com/in/noramoeri/), [Nexplore](https://www.nexplore.ch/)
+- **Engineer:** [Nora Möri](https://www.linkedin.com/in/noramoeri/), [Nexplore](https://www.nexplore.ch/)
 - **Training Provider, Bootcamp:** [Philippe Streit](https://www.linkedin.com/in/philippestreitbelp/), [Nexplore](https://www.nexplore.ch/)
 - **Moderation:** [Mirja J L Kindler](https://www.linkedin.com/in/mirja-j-l-kindler-ab069a93/), [adesso](https://www.adesso.ch/)
 
