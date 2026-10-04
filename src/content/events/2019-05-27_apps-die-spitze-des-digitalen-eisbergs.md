@@ -7,7 +7,7 @@ pubDatetime: 2019-05-27T18:00:00+01:00
 upcoming: false
 title: "Apps, die Spitze des digitalen Eisbergs"
 topics:
-  - apps
+  - app development
   - digitalisierung
   - mobile
   - transformation

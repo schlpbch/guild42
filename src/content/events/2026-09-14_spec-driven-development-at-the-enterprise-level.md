@@ -8,10 +8,9 @@ upcoming: false
 title: "Spec-Driven Development at the Enterprise Level"
 topics:
   - artificial intelligence
-  - development
+  - software engineering
   - spec-driven
   - architecture
-  - engineering
 
 description: Many software projects work code-centered, requirements are collected roughly, code is written – and documentation, tests, and specifications lag behind. The result, specifications become outdated, documentation is incomplete, tests are missing.
 ---

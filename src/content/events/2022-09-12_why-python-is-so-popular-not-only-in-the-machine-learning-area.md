@@ -8,7 +8,7 @@ upcoming: false
 draft: false
 topics:
   - python
-  - programming language
+  - programming
 description: This talk highlights why Python is so popular and which characteristics make it stand out.
 ---
 

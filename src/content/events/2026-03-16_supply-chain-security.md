@@ -12,7 +12,7 @@ topics:
   - ci/cd
   - container
   - security
-  - engineering
+  - software engineering
 
 description: Built Fast, Poorly Protected? Supply Chain Security Between Container Convenience and the CRA (Cyber Resilience Act).
 ---

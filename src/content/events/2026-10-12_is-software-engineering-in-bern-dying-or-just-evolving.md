@@ -3,11 +3,10 @@ author: Simon Butscher
 speakers: []
 pubDatetime: 2026-10-12T18:00:00+02:00
 upcoming: true
-title: "Is Software Engineering in Bern Declining - or Just Evolving?"
-topics:
+title: "Is Software Engineering in Bern Declining - or Just Evolving
   - artificial intelligence
   - near shore
-  - engineering
+  - software engineering
 
 description: Bern’s software engineering scene is changing, new skills, new roles, and new expectations are reshaping what it means to build software today.
 ---

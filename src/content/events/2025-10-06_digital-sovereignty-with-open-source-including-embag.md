@@ -6,7 +6,7 @@ pubDatetime: 2025-10-06T18:00:00+00:00
 upcoming: false
 title: "Digital Sovereignty with Open Source including EMBAG"
 topics:
-  - engineering
+  - software engineering
   - api
   - code
 

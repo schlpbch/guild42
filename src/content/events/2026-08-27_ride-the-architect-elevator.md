@@ -7,7 +7,7 @@ upcoming: false
 title: "Ride the Architect Elevator"
 topics:
   - communication
-  - engineering
+  - software engineering
   - architecture
   - frameworks
   - platform

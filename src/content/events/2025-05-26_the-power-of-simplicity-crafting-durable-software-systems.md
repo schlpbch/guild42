@@ -8,7 +8,7 @@ title: "The Power of Simplicity: Crafting Durable Software Systems"
 topics:
   - architecture
   - simplicity
-  - software system design
+  - software engineering
 description: Simplicity often takes a back seat in software engineering. Yet, it’s absolutely key for creating durable and efficient systems.
 ---
 

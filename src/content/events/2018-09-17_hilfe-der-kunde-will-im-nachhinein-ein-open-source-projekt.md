@@ -10,9 +10,9 @@ title: "Hilfe, der Kunde will im Nachhinein ein Open Source Projekt!"
 topics:
   - open source
   - e-government
-  - softwareentwicklung
+  - software engineering
   - projektmanagement
-  - kulturwandel
+  - culture
 
 description: Ein Erfahrungsbericht der DV Bern AG über den Entscheid, die E-Government-Anwendung Ki-Tax als Open Source zu veröffentlichen – mit allen organisatorischen, kulturellen und technischen Herausforderungen.
 ---
