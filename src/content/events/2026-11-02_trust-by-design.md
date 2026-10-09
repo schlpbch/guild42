@@ -5,7 +5,7 @@ speakers:
   - André Kunz
 pubDatetime: 2026-11-02T18:00:00+01:00
 upcoming: true
-title: "Trust by Design"
+title: "Swiss e-ID - Trust by Design"
 topics:
   - trust
   - identity
