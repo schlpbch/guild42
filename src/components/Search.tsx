@@ -1,6 +1,6 @@
 import Fuse from "fuse.js";
 import { useEffect, useRef, useState, useMemo } from "preact/hooks";
-import type { JSX } from "preact";
+import type { JSX, TargetedEvent } from "preact";
 import Card from "@components/Card";
 import type { CollectionEntry } from "astro:content";
 
@@ -38,7 +38,7 @@ export default function SearchBar({ searchList }: Props) {
     [searchList]
   );
 
-  const handleChange = (e: JSX.TargetedEvent<HTMLInputElement>) => {
+  const handleChange = (e: TargetedEvent<HTMLInputElement>) => {
     const newVal = (e.target as HTMLInputElement).value;
     setInputVal(newVal);
   };
