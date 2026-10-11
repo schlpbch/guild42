@@ -3,6 +3,7 @@ import tailwindcss from "@tailwindcss/vite";
 import preact from "@astrojs/preact";
 import remarkToc from "remark-toc";
 import remarkCollapse from "remark-collapse";
+import { unified } from "@astrojs/markdown-remark";
 import sitemap from "@astrojs/sitemap";
 import { SITE } from "./src/config";
 
@@ -16,15 +17,17 @@ export default defineConfig({
   },
   integrations: [preact(), sitemap()],
   markdown: {
-    remarkPlugins: [
-      remarkToc,
-      [
-        remarkCollapse,
-        {
-          test: "Table of contents",
-        },
+    processor: unified({
+      remarkPlugins: [
+        remarkToc,
+        [
+          remarkCollapse,
+          {
+            test: "Table of contents",
+          },
+        ],
       ],
-    ],
+    }),
     shikiConfig: {
       theme: "one-dark-pro",
       wrap: true,
