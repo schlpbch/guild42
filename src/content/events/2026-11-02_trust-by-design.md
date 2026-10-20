@@ -27,7 +27,7 @@ The talk will be held in German with some Bernese sprinkled in.
 
 [Alexandra Höss](https://www.linkedin.com/in/alexandra-h%C3%B6%C3%9F-4a65aa140/) is responsible for the product and technology strategy of the Swiss e-ID and Trust Infrastructure at the Swiss Federal Office of Justice (FOJ). Before joining FOJ, Alexandra completed her PhD with a research focus on Managing Decentralized Digital Identities at the University of Luxembourg. During her doctoral studies she supported Luxembourg’s Ministry for Digitalisation on its projects related to digital identities.
 
-[André Kunz](https://www.linkedin.com/in/andr%C3%A9-kunz-4b937278/) is responsible for Open Source at the Federal Office of Justice. For over 15 years, he has been promoting open technologies, transparency and digital sovereignty. Amongst other things, he is a member of the management board at Puzzle ITC, co-founder of the open-source solution [Hitobito](https://hitobito.com/de/), and a board member of CH Open.
+[André Kunz](https://www.linkedin.com/in/andr%C3%A9-kunz-4b937278/) is responsible for Open Source at the Federal Office of Justice. For over 15 years, he has been promoting open technologies, transparency and digital sovereignty. Amongst other things, he is a former member of the management board at Puzzle ITC, co-founder of the open-source solution [Hitobito](https://hitobito.com/de/), and a former board member of CH Open.
 
 ## Registration
 
