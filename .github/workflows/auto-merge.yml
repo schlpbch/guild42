@@ -1,0 +1,43 @@
+name: Merge approved PR
+
+on:
+  pull_request_review:
+    types: [submitted]
+
+permissions:
+  contents: read
+  pull-requests: write
+  actions: write
+
+jobs:
+  merge:
+    if: >-
+      github.event.review.state == 'approved' &&
+      github.event.pull_request.base.ref == 'master' &&
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      contains(fromJSON('["OWNER","MEMBER","COLLABORATOR"]'), github.event.review.author_association)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Merge PR once required checks pass
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+        run: gh pr merge "$PR_URL" --squash --auto
+
+      # Merges made with GITHUB_TOKEN do not trigger the push workflow,
+      # so start the production deploy explicitly.
+      - name: Wait for merge and deploy
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          REPO: ${{ github.repository }}
+        run: |
+          for i in $(seq 1 60); do
+            if [ "$(gh pr view "$PR_URL" --json state -q .state)" = "MERGED" ]; then
+              gh workflow run netlify.yml --repo "$REPO" --ref master
+              exit 0
+            fi
+            sleep 30
+          done
+          echo "PR not merged within 30 minutes; deploy will happen on the next push to master."
