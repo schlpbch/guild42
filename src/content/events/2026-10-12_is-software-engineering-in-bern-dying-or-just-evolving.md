@@ -2,7 +2,7 @@
 author: Simon Butscher
 speakers: []
 pubDatetime: 2026-10-12T18:00:00+02:00
-upcoming: true
+upcoming: false
 title: "Is Software Engineering in Bern Declining - or Just Evolving?"
 topics:
   - artificial intelligence
