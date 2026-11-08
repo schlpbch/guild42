@@ -4,7 +4,7 @@ speakers:
   - Alexandra Höss
   - André Kunz
 pubDatetime: 2026-11-02T18:00:00+01:00
-upcoming: true
+upcoming: false
 title: "Swiss e-ID - Trust by Design"
 topics:
   - trust
